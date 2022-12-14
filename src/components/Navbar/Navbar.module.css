@@ -8,6 +8,7 @@
 
 .nameBrand{
     letter-spacing: 4px;
+    cursor: pointer;
 }
 
 .containerMenu{
@@ -17,6 +18,14 @@
     font-size: 15px;
 }
 
+.containerMenu i{
+    cursor: pointer;
+}
+
+.elementMenu{
+    cursor: pointer;
+}
+
 .buttonContact{
     background-color: white;
     border: none;
@@ -24,4 +33,5 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: rgb(0, 98, 209);
     font-weight: bold;
+    cursor: pointer;
 }

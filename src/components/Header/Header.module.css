@@ -2,10 +2,40 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    min-height: 90vh;
-    background: rgb(0, 98, 209);
-    background: -moz-linear-gradient(49deg, rgb(0, 98, 209) 12%, rgba(64, 205, 195, 1) 100%);
-    background: -webkit-linear-gradient(49deg, rgb(0, 98, 209) 12%, rgba(64, 205, 195, 1) 100%);
-    background: linear-gradient(49deg, rgb(0, 98, 209) 12%, rgba(64, 205, 195, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c00da", endColorstr="#40cdc3", GradientType=1);
+    min-height: 80vh;
+    background: rgb(21, 133, 204);
+    background: -moz-linear-gradient(0deg, rgba(21, 133, 204, 1) 12%, rgba(52, 185, 198, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(21, 133, 204, 1) 12%, rgba(52, 185, 198, 1) 100%);
+    background: linear-gradient(0deg, rgba(21, 133, 204, 1) 12%, rgba(52, 185, 198, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1585cc", endColorstr="#34b9c6", GradientType=1);
+}
+
+.containerPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+.titleHeader {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.describeHeader {
+    width: 50%;
+    text-align: center;
+}
+
+.buttonPlay {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    color: rgb(0, 98, 209);
+    margin-top: 2%;
+    box-shadow: 9px 14px 30px rgba(0, 0, 0, 0.27);
 }

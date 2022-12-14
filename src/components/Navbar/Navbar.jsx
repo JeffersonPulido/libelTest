@@ -7,11 +7,11 @@ export const Navbar = () => {
         <div className={style.containerNavbar}>
             <p className={style.nameBrand}>LIBEL ACADEMY</p>
             <div className={style.containerMenu}>
-                <p>Home</p>
-                <p>About</p>
-                <p>Services</p>
-                <p>Pricing</p>
-                <p>News</p>
+                <p className={style.elementMenu}>Home</p>
+                <p className={style.elementMenu}>About</p>
+                <p className={style.elementMenu}>Services</p>
+                <p className={style.elementMenu}>Pricing</p>
+                <p className={style.elementMenu}>News</p>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <button className={style.buttonContact}>Contact Us</button>
