@@ -39,3 +39,19 @@
     margin-top: 2%;
     box-shadow: 9px 14px 30px rgba(0, 0, 0, 0.27);
 }
+
+@media (max-width: 768px) {
+    .titleHeader{
+        text-align: center;
+    }
+    .describeHeader{
+        width: 80%;
+    }
+    .buttonPlay{
+        margin-top: 15%;
+    }
+}
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+
+}

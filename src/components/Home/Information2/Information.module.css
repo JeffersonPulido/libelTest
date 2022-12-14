@@ -40,6 +40,19 @@
     color: #1585cc;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btnInfo:hover {
+    border: 1px solid white;
+    border-radius: 5rem;
+    margin: 20px;
+    padding: 0% 2%;
+    background: #1585cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s all;
 }
 
 .bodyInformation {
@@ -89,4 +102,61 @@
     font-family: sans-serif;
     font-size: 15px;
     color: #393939;
+}
+
+
+/* MARCAS MOBILE */
+@media (max-width: 768px) {
+    .headerInformation{
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    .title{
+        font-size: 3vh;
+        text-align: center;
+    }
+    .subtitle{
+        font-size: 2vh;
+        text-align: center;
+    }
+    .btnInfo{
+        padding: 4% 6%;
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bodyInformation{
+        display: block;
+    }
+    .right{
+        width: 100%;
+    }
+    .titleBody{
+        text-align: center;
+        font-size: 23px;
+    }
+    .descBody{
+        text-align: center;
+        font-size: 18px;
+    }
+    .iconCard i{
+        font-size: 45px;
+    }
+    .titleCard{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 18px;
+    }
+}
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .containerInformacion{
+        margin: 0% 5%;
+    }
+    .bodyInformation{
+        margin-top: 5%;
+    }
 }

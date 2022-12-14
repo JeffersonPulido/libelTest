@@ -60,3 +60,20 @@
     color: #404040;
     margin-top: 0;
 }
+
+@media (max-width: 768px) {
+    .containerTitle{
+        text-align: center;
+    }
+    .containerCards{
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: repeat(1, auto);
+    }
+    .card{
+        padding: 0% 10%;
+    }
+}
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+
+}
