@@ -1,0 +1,62 @@
+.containerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.title {
+    color: #1585cc;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 0% 5%;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.548);
+    height: 15rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border-bottom: 5px solid #012364;
+}
+
+.card i {
+    color: #1585cc;
+    font-size: 8vh;
+}
+
+.titleCard {
+    font-weight: bold;
+    color: #012364;
+    margin: 5% 0%;
+}
+
+.descriptionCard{
+    color: #404040;
+    margin-top: 0;
+}

@@ -1,0 +1,92 @@
+.containerInformacion {
+    margin: 5% 5%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerInformation {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 75%;
+    height: 5rem;
+}
+
+.title {
+    color: #1585cc;
+    font-weight: bold;
+    font-size: 5vh;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.subtitle {
+    color: #012364;
+    font-family: sans-serif;
+    font-size: 3vh;
+    margin: 0;
+}
+
+.btnInfo {
+    border: 1px solid #1585cc;
+    border-radius: 5rem;
+    margin: 20px;
+    padding: 0% 2%;
+    background: transparent;
+    color: #1585cc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bodyInformation {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.right {
+    width: 50%;
+}
+
+.titleBody {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #1585cc;
+    text-align: start;
+}
+
+.descBody {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #393939;
+}
+
+.iconCard {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconCard i{
+    font-size: 30px;
+    color: #012364;
+}
+
+.titleCard{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #1585cc;
+    text-align: start;
+}
+
+.description{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #393939;
+}
