@@ -1,0 +1,11 @@
+.containerHeader {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 90vh;
+    background: rgb(0, 98, 209);
+    background: -moz-linear-gradient(49deg, rgb(0, 98, 209) 12%, rgba(64, 205, 195, 1) 100%);
+    background: -webkit-linear-gradient(49deg, rgb(0, 98, 209) 12%, rgba(64, 205, 195, 1) 100%);
+    background: linear-gradient(49deg, rgb(0, 98, 209) 12%, rgba(64, 205, 195, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c00da", endColorstr="#40cdc3", GradientType=1);
+}

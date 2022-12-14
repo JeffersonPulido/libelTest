@@ -1,0 +1,27 @@
+.containerNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif;
+}
+
+.nameBrand{
+    letter-spacing: 4px;
+}
+
+.containerMenu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.buttonContact{
+    background-color: white;
+    border: none;
+    border-radius: 15rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: rgb(0, 98, 209);
+    font-weight: bold;
+}
